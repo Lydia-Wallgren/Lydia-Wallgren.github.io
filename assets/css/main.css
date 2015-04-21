@@ -286,8 +286,8 @@ a:after {
 	color: #ffffff;
 }
 
-#f i:hover, 
-#f i:focus {
+#f .right i:hover, 
+#f .right i:focus {
 	color: #ccc;
 }
 /* Image */
