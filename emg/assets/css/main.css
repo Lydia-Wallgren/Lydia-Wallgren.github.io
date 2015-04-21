@@ -1,0 +1,320 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Bolt - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+ /* possible colors 
+ 4D6F91
+ F86857
+ 333333
+ 65AABA
+ */
+ 
+/* FONTS */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
+/* OVERALL ASPECT */
+html {
+	height: 100%
+}
+
+body {
+  	background-color: #fff;
+    font-family: 'PT Sans', sans-serif, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #4D4D4D;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    
+    /*margin-top: 70px;*/
+    height: 100%
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Sans', sans-serif, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-weight: 700;
+    color: #3c3c3c;
+}
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    color: #222;
+}
+
+.body_text {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.centered {
+    text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.mt {
+	margin-top: 40px;
+}
+
+.ml {
+	margin-left: 0;
+}
+
+/* Links */
+a {
+    color: #E78B35;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #cf931e;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:active {
+	border-bottom: solid 3px #232f61;
+	color: #232f61
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+.nav-previous a, .nav-next a {
+  display: block;
+  position: fixed;
+  top: 50%;
+  text-align: center;
+  width: 120px;
+  height: 100%;
+  z-index: 1; 
+}
+
+.nav-next a {
+	right: 0;
+}
+
+.arrow {
+	font-size: 40px;
+	padding-top: 83px;
+}
+
+.arrow a {
+	color: #ccc;
+}
+
+.arrow a:hover,
+.arrow a:focus {
+	color: #555;
+} 
+
+/* Bootstrap Modifications */
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+	/*font-weight: 800;*/
+	font-size: 16px;
+	padding-top: 15px;
+	/*padding-bottom: 15px;*/
+	background-color: #F4F5F7;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #4D4D4D;
+	background-color: #F4F5F7;
+	text-transform: uppercase;
+}
+
+.navbar-brand {
+	font-size: 55px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.btn-theme {
+	color: #ffffff;
+	background-color: #74cfae;
+	border-color: transparent;
+}
+
+.btn {
+	padding: 10px 30px;
+	margin-bottom: 0;
+	font-size: 18px;
+	border: 5px solid transparent;
+	border-radius: 0px;
+}
+
+.lead {
+	letter-spacing: 1px;
+}
+
+/* WRAP SECTIONS */
+
+/* hello */
+#hello {
+	width: 100%;
+	height: 100%;
+}
+
+#hello .container {
+	height: 100%;
+}
+
+#hello .row {
+	display: block;
+	position: relative;
+  	top: 42%;
+ 	height: 100%;
+  	z-index: 1; 
+}
+
+#hello h1 {
+	/*font-size: 90px;*/
+	font-weight: 700;
+	letter-spacing: 3px;
+	color: #232f61;
+}
+
+/* iPad and up */
+@media only screen and (min-device-width : 768px) {
+	#hello h1 {
+    	font-size: 90px;
+	}
+}
+
+#hello h2 {
+	color: #ed3425;
+	font-weight: 400;
+}
+
+/* Green */
+#green {
+	background-color: #F4F5F7;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-bottom: 0px;
+}
+
+#green h3 {
+	color: #7a828e;
+	font-weight: 400;
+	margin-bottom: 35px;
+}
+
+#green p {
+	color: #7a828e;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+/* Work */
+#work{
+	padding-bottom: 50px;
+}
+
+.work {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#workDescription {
+	margin-top: 70px;	
+}
+
+/*#work .col-lg-3{
+	width:250px;
+	height: 250px;
+	overflow: hidden;
+}*/
+
+/* Social Links - never used*/
+/*#social {
+	background-color: #65AABA;
+	width: 100%;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+#social .col-md-3 {
+	padding:30px;
+}*/
+
+/* Footer */
+#f {
+	padding-top: 20px;
+	background-color: #f4f4f4;
+	border-top: solid 1px #e9e9e9;
+	height: 150px;
+}
+
+#f p {
+	color: #4D4D4D;
+	font-weight: 400;
+}
+
+#f i {
+	
+	color: #c1c1c1;
+}
+
+#f .right i {
+	font-size: 40px;
+} 
+
+#f .right i:hover, 
+#f .right i:focus {
+	color: #ccc;
+}
+/* Image */
+.grid img {
+    opacity: .7;
+}
+.grid img:hover {
+    opacity: 1;
+}
+.body_img {
+	margin-top: 25px;
+	font-size: 14px;
+	/*margin-bottom: 25px;*/
+}
+.main .float {
+    float: right;
+    padding-left: 14px;
+}
