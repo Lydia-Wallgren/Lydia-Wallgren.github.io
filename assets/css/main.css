@@ -258,26 +258,17 @@ a:after {
 	overflow: hidden;
 }*/
 
-/* Social Links */
-#social {
+/* Social Links - never used*/
+/*#social {
 	background-color: #65AABA;
 	width: 100%;
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
 
-#social i {
-	font-size: 50px;
-	color: #ffffff;
-}
-
-#social i:hover {
-	color: #ebebeb;
-}
-
 #social .col-md-3 {
 	padding:30px;
-}
+}*/
 
 /* Footer */
 #f {
@@ -290,6 +281,15 @@ a:after {
 	font-weight: 400;
 }
 
+#f i {
+	/*font-size: 50px;*/
+	color: #ffffff;
+}
+
+#f i:hover, 
+#f i:focus {
+	color: #ccc;
+}
 /* Image */
 .grid img {
     opacity: .7;
