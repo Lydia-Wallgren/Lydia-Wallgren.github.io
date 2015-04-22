@@ -94,7 +94,8 @@ a:focus {
     outline: 0;
 }
 
-a:active {
+a:active,
+a .blue {
 	border-bottom: solid 3px #232f61;
 	color: #232f61
 }
