@@ -94,12 +94,6 @@ a:focus {
     outline: 0;
 }
 
-a:active,
-a .blue {
-	border-bottom: solid 3px #232f61;
-	color: #232f61
-}
-
 a:before,
 a:after {
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -156,10 +150,21 @@ a:after {
 	background-color: #F4F5F7;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a 
+ {
 	color: #4D4D4D;
 	background-color: #F4F5F7;
 	text-transform: uppercase;
+	border-bottom: solid 3px #F4F5F7;
+}
+
+.navbar-default .navbar-nav > .active > a:active,
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	border-bottom: solid 3px #232f61;
+	color: #232f61;
+	font-weight: bold;
+	background-color: #F4F5F7;
 }
 
 .navbar-brand {
