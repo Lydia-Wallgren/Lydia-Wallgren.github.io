@@ -323,7 +323,16 @@ a:after {
 	font-size: 14px;
 	/*margin-bottom: 25px;*/
 }
-.main .float {
-    float: right;
-    padding-left: 14px;
+
+/* iPad and up */
+@media only screen and (min-device-width : 768px) {
+	.main .float {
+    	float: right;
+    	padding-left: 14px;
+    	width: 50%;
+	}
 }
+
+.main .float {
+    	width: 100%;
+	}
