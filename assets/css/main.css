@@ -108,7 +108,7 @@ a:after {
   position: fixed;
   top: 50%;
   text-align: center;
-  width: 120px;
+  width: 80px;
   height: 100%;
   z-index: 1; 
 }
@@ -118,7 +118,7 @@ a:after {
 }
 
 .arrow {
-	font-size: 40px;
+	font-size: 30px;
 	padding-top: 83px;
 }
 
@@ -130,6 +130,16 @@ a:after {
 .arrow a:focus {
 	color: #555;
 } 
+
+/* iPad and up */
+@media only screen and (min-device-width : 768px) {
+	.nav-previous a, .nav-next a {
+    	width: 120px;
+	}
+	.arrow {
+	font-size: 40px;
+	}
+}
 
 /* Bootstrap Modifications */
  hr {
@@ -248,10 +258,21 @@ a:after {
 	padding-bottom: 15px;
 }
 
+/* workDescription*/
 #workDescription {
 	margin-top: 70px;	
 }
 
+#workDescription h2 {
+		font-size: 22px;
+}
+
+/* iPad and up */
+@media only screen and (min-device-width : 768px) {
+	#workDescription h2 {
+		font-size: 30px;
+	}
+}
 /*#work .col-lg-3{
 	width:250px;
 	height: 250px;
